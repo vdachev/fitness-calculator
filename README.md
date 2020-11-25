@@ -131,15 +131,21 @@ Each gram of macronutrient provides energy as follows:
 
 Parameters that can be used for estimating various values are:
 
-| Parameter    | Unit(s)        | Min | Max |
-| ------------ | -------------- | --- | --- |
-| Sex          | male or female | -   | -   |
-| Age[^1]      | years          | 0   | 123 |
-| Weight       | kg or lb[^2]   | 0   | 635 |
-| Height       | cm or in[^3]   | 0   | 272 |
-| Lifestyle    | see above      | -   | -   |
-| Weight Goal  | see above      | -   | -   |
-| Fitness Goal | see above      | -   | -   |
+| Parameter    | Unit(s)        | Min | Max    |
+| ------------ | -------------- | --- | ------ |
+| Sex          | male or female | -   | -      |
+| Age          | years          | 0   | 123    |
+| Weight       | kg or lb       | 0   | 635 kg |
+| Height       | cm or in       | 0   | 272 cm |
+| Lifestyle    | see above      | -   | -      |
+| Weight Goal  | see above      | -   | -      |
+| Fitness Goal | see above      | -   | -      |
+
+Notes:
+
+- Age (for the purpose of this document) is considered the number of days from the birthday of a person divided by 365.25 days/year.
+- "lb" stands for [pounds](https://en.wikipedia.org/wiki/Pound_(mass)), equals 0.45359237 kg
+- "in" stands for [inches](https://en.wikipedia.org/wiki/Inch), equals 2.54 cm
 
 Based on these parameters an application can calculate:
 
@@ -168,9 +174,3 @@ Based on these parameters an application can calculate:
 - [Everything You Need to Know About Counting Macros for Weight Loss
 ](https://www.menshealth.com/weight-loss/a19540439/how-to-count-macronutrients-iifym-eating-plan/)
 - [How to Calculate Your Ideal Macronutrients Intake](https://shapescale.com/blog/health/nutrition/calculate-macronutrient-ratio/)
-
----
-[^1]: Age (for the purpose of this document) is considered the number of days from the birthday of a person divided by 365.25 days/year.
-[^2]: "lb" stands for [pounds](https://en.wikipedia.org/wiki/Pound_(mass)), equals 0.45359237 kg
-[^3]: "in" stands for [inches](https://en.wikipedia.org/wiki/Inch), equals 2.54 cm
-[^4]: "PAL"stands for [pysical activity level](https://en.wikipedia.org/wiki/Physical_activity_level)
