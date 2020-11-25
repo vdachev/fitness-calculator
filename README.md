@@ -9,7 +9,7 @@ Energy can be measured in multiple units depending on the case:
   - A **large calorie (Cal, ㎉)**, or food calorie is widely used in nutrition, and equals 4184 J.
   - A **small calorie (cal)**, or gram calorie is widely used in physics, and equals 4.184 J.
 
-### Physiology Glossary
+### Physiology Basics
 
 #### Body Mass Index (BMI)
 
@@ -34,7 +34,7 @@ BMI can be used to determine a person category using the following table:
 
 A new BMI formula has been [proposed](https://en.wikipedia.org/wiki/Body_mass_index#Proposed_New_BMI) but not yet widely accepted.
 
-### Basal Metabolic Rate (BMR)
+#### Basal Metabolic Rate (BMR)
 
 The [Basal metabolic rate (BMR)](https://en.wikipedia.org/wiki/Basal_metabolic_rate) the rate at which a person spends energy while being at rest.
 
@@ -42,7 +42,7 @@ BMR is measured in J/(h.kg).
 
 BMR can be estimated by using the [Harris-Benedict Equation](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation).
 
-### Physical Activity Level (PAL)
+#### Physical Activity Level (PAL)
 
 The [Physical activity level (PAL)](https://en.wikipedia.org/wiki/Physical_activity_level) is a measure for a person's daily physical activity.
 
@@ -58,7 +58,7 @@ PAL can be estimated using the following table:
   | Vigorously active           | 2.00 to 2.40 | Agricultural worker (non-mechanized) or person swimming two hours daily
   | Extremely active            | 2.40 or more | Competitive cyclist
 
-### Total Energy Expenditure (TEE)
+#### Total Energy Expenditure (TEE)
 
 The [Total energy expenditure (TEE)](https://en.wikipedia.org/wiki/Energy_homeostasis#Expenditure) is the energy a person spends due to their metabolism, the thermic effect of food, plus their activity.
 
@@ -66,7 +66,7 @@ TEE is measured in J/(h.kg).
 
 TEE can also be estimated by using the [Harris-Benedict Equation](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation).
 
-### Caloric Deficit
+#### Caloric Deficit
 
 The [Caloric deficit](https://en.wikipedia.org/wiki/Caloric_deficit) is (rougly) the difference between the energy intake and the energy expended.
 
@@ -108,7 +108,7 @@ Notes:
 - To reduce 1 kg of weight, about 7000 ㎉ deficit is required.
 - In order to avoid malnutrition and/or starvation, one should not consume less than 1200 ㎉ for women, and 1800 ㎉ for men.
 
-### Healthy Diet
+#### Healthy Diet
 
 There are many recommendations for a [healthy diet](https://en.wikipedia.org/wiki/Healthy_diet).
 
