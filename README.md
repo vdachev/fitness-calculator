@@ -27,8 +27,8 @@ BMI can be used to determine a person category using the following table:
   | Normal (healthy weight)               | 18.5 | 25   |
   | Overweight                            | 25   | 30   |
   | Obese Class I (moderately obese)      | 30   | 35   |
-  | Obese Class II (Severely obese)       | 35   | 40   |
-  | Obese Class III (Very severely obese) | 40   |      |
+  | Obese Class II (severely obese)       | 35   | 40   |
+  | Obese Class III (very severely obese) | 40   |      |
 
 [BMI Prime](https://en.wikipedia.org/wiki/Body_mass_index#BMI_prime) can be used to show a person's BMI relative the the optimal BMI value of 25.
 
@@ -38,7 +38,7 @@ A new BMI formula has been [proposed](https://en.wikipedia.org/wiki/Body_mass_in
 
 The [Basal metabolic rate (BMR)](https://en.wikipedia.org/wiki/Basal_metabolic_rate) the rate at which a person spends energy while being at rest.
 
-BMR is measured in J/(h.kg).
+BMR is measured in in ㎉/day or J/(h.kg), depending on the formula.
 
 BMR can be estimated by using the [Harris-Benedict Equation](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation).
 
@@ -62,7 +62,7 @@ PAL can be estimated using the following table:
 
 The [Total energy expenditure (TEE)](https://en.wikipedia.org/wiki/Energy_homeostasis#Expenditure) is the energy a person spends due to their metabolism, the thermic effect of food, plus their activity.
 
-TEE is measured in J/(h.kg).
+TEE can be measured in ㎉/day or J/(h.kg), depending on the formula.
 
 TEE can also be estimated by using the [Harris-Benedict Equation](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation).
 
@@ -106,7 +106,7 @@ Depending on their goal, one can estimate their calorie consumption as follows:
 Notes:
 
 - To reduce 1 kg of weight, about 7000 ㎉ deficit is required.
-- In order to avoid malnutrition and/or starvation, one should not consume less than 1200 ㎉ for women, and 1800 ㎉ for men.
+- In order to avoid malnutrition and/or starvation, one should not consume less than 1200 ㎉/day for women, and 1800 ㎉/day for men.
 
 #### Healthy Diet
 
@@ -135,8 +135,8 @@ Parameters that can be used for estimating various values are:
 | ------------ | -------------- | --- | ------ |
 | Sex          | male or female | -   | -      |
 | Age          | years          | 0   | 123    |
-| Weight       | kg or lb       | 0   | 635 kg |
-| Height       | cm or in       | 0   | 272 cm |
+| Weight       | kg (or lb)     | 0   | 635 kg |
+| Height       | cm (or in)     | 0   | 272 cm |
 | Lifestyle    | see above      | -   | -      |
 | Weight Goal  | see above      | -   | -      |
 | Fitness Goal | see above      | -   | -      |
