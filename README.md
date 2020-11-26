@@ -6,14 +6,14 @@ Energy can be measured in multiple units depending on the case:
 
 - In [SI](https://en.wikipedia.org/wiki/International_System_of_Units), energy is measured primarily in **joule (J)**.
 - Biological energy is usually measured in [calories](https://en.wikipedia.org/wiki/Calorie):
-  - A **large calorie (Cal, ㎉)**, or food calorie is widely used in nutrition, and equals 4184 J.
+  - A **large calorie (Cal, kcal, ㎉)**, or food calorie is widely used in nutrition, and equals 4184 J.
   - A **small calorie (cal)**, or gram calorie is widely used in physics, and equals 4.184 J.
 
 ### Physiology Basics
 
 #### Body Mass Index (BMI)
 
-The [Body mass index (BMI)]((https://en.wikipedia.org/wiki/Body_mass_index)) is a way of estimating a person's overall health.
+The [Body mass index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index) is a way of estimating a person's overall health.
 
 BMI is measured in kg/m².
 
@@ -152,7 +152,7 @@ Based on these parameters an application can calculate:
 1. [PAL](#physical-activity-level-pal) using:
    - Lifestyle
 2. [BMI](#body-mass-index-bmi) using:
-   - Wight
+   - Weight
    - Height
 3. [BMR](#basal-metabolic-rate-bmr) using:
    - Sex
