@@ -6,8 +6,8 @@ namespace FitnessCalculatorConsole
 	{
 		static void Main()
 		{
-			const int minAge = 0;
-			const int maxAge = 123;
+			const double minAge = 0;
+			const double maxAge = 123;
 			const double minWeight = 0;
 			const double maxWeight = 635;
 			const double minHeight = 0;
@@ -48,11 +48,11 @@ namespace FitnessCalculatorConsole
 
 			#region Age
 
-			Console.Write($"Enter age ({minAge} <= age <= {maxAge}): ");
+			Console.Write($"Enter age ({minAge} <= age <= {maxAge}) in yrs: ");
 
 			string s = Console.ReadLine();
 
-			if (!int.TryParse(s, out int age))
+			if (!double.TryParse(s, out double age))
 			{
 				Console.Error.WriteLine(@"I said ""age""!");
 				return;
@@ -74,7 +74,7 @@ namespace FitnessCalculatorConsole
 
 			#region Weight
 
-			Console.Write($"Enter weight ({minWeight} <= weight <= {maxWeight}): ");
+			Console.Write($"Enter weight ({minWeight} <= weight <= {maxWeight}) in kg: ");
 
 			s = Console.ReadLine();
 
@@ -100,11 +100,11 @@ namespace FitnessCalculatorConsole
 
 			#region Height
 
-			Console.Write($"Enter height ({minHeight} <= height <= {maxHeight}): ");
+			Console.Write($"Enter height ({minHeight} <= height <= {maxHeight}) in cm: ");
 
 			s = Console.ReadLine();
 
-			if (!int.TryParse(s, out int height))
+			if (!double.TryParse(s, out double height))
 			{
 				Console.Error.WriteLine("You should have entered weight, not the name of a giraffe!");
 				return;
@@ -140,20 +140,37 @@ namespace FitnessCalculatorConsole
 
 			#region BMR
 
-			double bmr = (10 * weight) + (6.25 * height) - (5 * age);
+			double bmr = sex
+				? 66.5
+					+ 13.75 * weight
+					+ 5.003 * height
+					- 6.755 * age
+				: 655
+					+ 9.563 * weight
+					+ 1.850 * height
+					- 4.676 * age;
 
-			// male
-			if (sex)
-			{
-				bmr += 5;
-			}
-			// female
-			else
-			{
-				bmr -= 161;
-			}
+			Console.WriteLine($"Basal metabolic rate (BMR) according to Harris–Benedict equations published in 1918 and 1919 {bmr} ㎉/day.");
 
-			Console.WriteLine($"Basal metabolic rate (BMR) is {bmr} kcal/day.");
+			double bmr1984 = sex
+				? 88.362
+					+ 13.397 * weight
+					+ 4.799 * height
+					- 5.677 * age
+				: 447.593
+					+ 9.247 * weight
+					+ 3.098 * height
+					- 4.330 * age;
+
+			Console.WriteLine($"Basal metabolic rate (BMR) according to Harris–Benedict equations revised by Roza and Shizgal in 1984 is {bmr1984} ㎉/day.");
+
+			double bmr1990 =
+				(sex ? 5 : -161)
+				+ 10 * weight
+				+ 6.25 * height
+				- 5 * age;
+
+			Console.WriteLine($"Basal metabolic rate (BMR) according to Harris–Benedict equations revised by Mifflin and St Jeor in 1990 is {bmr1990} ㎉/day.");
 
 			#endregion
 
